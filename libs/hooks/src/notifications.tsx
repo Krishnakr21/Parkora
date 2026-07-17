@@ -1,9 +1,9 @@
-import { addNotification, removeNotification } from '@autospace-org/store/utils'
+import { addNotification, removeNotification } from '@parkora-org/store/utils'
 
-import { useAppDispatch } from '@autospace-org/store'
+import { useAppDispatch } from '@parkora-org/store'
 
-import { makeId } from '@autospace-org/util'
-import { notification$ } from '@autospace-org/util/subjects'
+import { makeId } from '@parkora-org/util'
+import { notification$ } from '@parkora-org/util/subjects'
 import { useEffect } from 'react'
 import {
   catchError,

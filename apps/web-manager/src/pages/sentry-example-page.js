@@ -70,7 +70,7 @@ export default function Home() {
 
         <p>
           Next, look for the error on the{' '}
-          <a href="https://karthick-ragavendran.sentry.io/issues/?project=4505532587638784">
+          <a href="https://krishna.sentry.io/issues/?project=4505532587638784">
             Issues Page
           </a>
           .

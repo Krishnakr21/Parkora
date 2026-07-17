@@ -1,5 +1,5 @@
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 import { IconDoorExit, IconMenu2 } from '@tabler/icons-react'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -7,8 +7,8 @@ import { Brand } from '../../atoms/Brand'
 import { Button } from '../../atoms/Button'
 import { Sidebar } from '../Sidebar'
 
-import { signOut } from '@autospace-org/network/src/auth'
-import { MenuItem } from '@autospace-org/types'
+import { signOut } from '@parkora-org/network/src/auth'
+import { MenuItem } from '@parkora-org/types'
 import { ShowUserDisplayName } from '../../atoms/ShowUserDisplayName'
 
 export interface INavSidebarProps {

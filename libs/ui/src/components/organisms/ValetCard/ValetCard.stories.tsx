@@ -1,4 +1,4 @@
-import { valets } from '@autospace-org/network/src/data'
+import { valets } from '@parkora-org/network/src/data'
 import type { Meta, StoryObj } from '@storybook/react'
 import { ValetCard } from './ValetCard'
 

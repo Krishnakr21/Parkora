@@ -1,11 +1,11 @@
-import { useTakeSkip } from '@autospace-org/hooks/src/async'
+import { useTakeSkip } from '@parkora-org/hooks/src/async'
 import {
   BookingStatus,
   SortOrder,
   useMyDropTripsQuery,
-} from '@autospace-org/network/src/generated'
-import { useAppSelector } from '@autospace-org/store'
-import { selectUser } from '@autospace-org/store/user'
+} from '@parkora-org/network/src/generated'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUser } from '@parkora-org/store/user'
 import { Timeline } from '../../molecules/Timeline'
 import { TimelineItem } from '../../molecules/Timeline/Timeline'
 import { MyTripCard } from '../../organisms/PickupDropInfoCard/PickupDropInfoCard'

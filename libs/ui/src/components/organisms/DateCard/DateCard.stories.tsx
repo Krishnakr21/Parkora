@@ -1,4 +1,4 @@
-import { toLocalISOString } from '@autospace-org/util'
+import { toLocalISOString } from '@parkora-org/util'
 import type { Meta, StoryObj } from '@storybook/react'
 import { DateCard } from './DateCard'
 

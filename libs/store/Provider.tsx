@@ -10,7 +10,7 @@ export const ReduxProvider = ({ children }: { children: ReactNode }) => (
 export const ReduxAddUid = ({ children }: { children: ReactNode }) => {
   const dispatch = useAppDispatch()
   useEffect(() => {
-    dispatch(setUser({ uid: 'some_id', displayName: 'Karthick Ragavendran' }))
+    dispatch(setUser({ uid: 'some_id', displayName: 'Krishna' }))
 
     return () => {
       dispatch(resetUser())

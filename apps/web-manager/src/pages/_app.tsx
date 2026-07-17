@@ -1,15 +1,15 @@
 import '@/styles/globals.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-import { ApolloProvider } from '@autospace-org/network/src/config/apollo'
-import { ReduxProvider } from '@autospace-org/store/Provider'
-import { AppLevelListeners } from '@autospace-org/ui/src/components/atoms/AppLevelListeners'
-import { Notifications } from '@autospace-org/ui/src/components/organisms/Notifications'
+import { ApolloProvider } from '@parkora-org/network/src/config/apollo'
+import { ReduxProvider } from '@parkora-org/store/Provider'
+import { AppLevelListeners } from '@parkora-org/ui/src/components/atoms/AppLevelListeners'
+import { Notifications } from '@parkora-org/ui/src/components/organisms/Notifications'
 import type { AppProps } from 'next/app'
 
-import { MenuItem } from '@autospace-org/types'
-import { Footer } from '@autospace-org/ui/src/components/organisms/Footer'
-import { Header } from '@autospace-org/ui/src/components/organisms/Header'
+import { MenuItem } from '@parkora-org/types'
+import { Footer } from '@parkora-org/ui/src/components/organisms/Footer'
+import { Header } from '@parkora-org/ui/src/components/organisms/Header'
 
 const MENUITEMS: MenuItem[] = [
   { label: 'New Garage', href: '/createGarage', loggedIn: true },

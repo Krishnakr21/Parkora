@@ -1,4 +1,4 @@
-import { CarScene, RotatingCamera } from '@autospace-org/3d/src/scenes/CarScene'
+import { CarScene, RotatingCamera } from '@parkora-org/3d/src/scenes/CarScene'
 import { IconArrowBack } from '@tabler/icons-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'

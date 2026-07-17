@@ -1,4 +1,4 @@
-import { garages } from '@autospace-org/network/src/data'
+import { garages } from '@parkora-org/network/src/data'
 import type { Meta, StoryObj } from '@storybook/react'
 import { GarageAdminCard } from './GarageAdminCard'
 

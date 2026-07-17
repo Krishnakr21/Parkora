@@ -1,4 +1,4 @@
-import { Map } from '@autospace-org/ui/src/components/organisms/Map'
+import { Map } from '@parkora-org/ui/src/components/organisms/Map'
 import axios from 'axios'
 
 import { loadStripe } from '@stripe/stripe-js'
@@ -19,15 +19,15 @@ import {
   CreateBookingInput,
   SearchGaragesQuery,
   SlotType,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import { Controller } from 'react-hook-form'
 import { Button } from '../../../atoms/Button'
 
-import { FormTypeBookSlot } from '@autospace-org/forms/src/bookSlot'
-import { useTotalPrice } from '@autospace-org/hooks/src/useTotalPrice'
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
-import { notification$ } from '@autospace-org/util/subjects'
+import { FormTypeBookSlot } from '@parkora-org/forms/src/bookSlot'
+import { useTotalPrice } from '@parkora-org/hooks/src/useTotalPrice'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
+import { notification$ } from '@parkora-org/util/subjects'
 import { Form } from '../../../atoms/Form'
 import { HtmlInput } from '../../../atoms/HtmlInput'
 import { HtmlLabel } from '../../../atoms/HtmlLabel'
@@ -35,10 +35,10 @@ import { DateRangeBookingInfo } from '../../../molecules/DateRangeBookingInfo'
 
 import { ReactNode, useEffect, useMemo, useState } from 'react'
 
-import { useDebouncedValue } from '@autospace-org/hooks/src/async'
-import { LngLatTuple } from '@autospace-org/store/map'
-import { LatLng, TotalPrice } from '@autospace-org/types'
-import { toLocalISOString } from '@autospace-org/util'
+import { useDebouncedValue } from '@parkora-org/hooks/src/async'
+import { LngLatTuple } from '@parkora-org/store/map'
+import { LatLng, TotalPrice } from '@parkora-org/types'
+import { toLocalISOString } from '@parkora-org/util'
 import React from 'react'
 import { Badge } from '../../../atoms/Badge'
 import { ParkingIcon } from '../../../atoms/ParkingIcon'

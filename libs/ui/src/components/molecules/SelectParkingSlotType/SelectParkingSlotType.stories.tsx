@@ -1,4 +1,4 @@
-import { SlotType } from '@autospace-org/network/src/generated'
+import { SlotType } from '@parkora-org/network/src/generated'
 import type { Meta, StoryObj } from '@storybook/react'
 import { RadioOptionsSelectParkingSlotType } from './SelectParkingSlotType'
 

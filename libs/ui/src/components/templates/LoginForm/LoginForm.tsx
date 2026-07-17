@@ -3,16 +3,16 @@ import { Button } from '../../atoms/Button'
 import { HtmlInput } from '../../atoms/HtmlInput'
 import { HtmlLabel } from '../../atoms/HtmlLabel'
 
-import { FormTypeLogin, useFormLogin } from '@autospace-org/forms/src/login'
+import { FormTypeLogin, useFormLogin } from '@parkora-org/forms/src/login'
 import { Form } from '../../atoms/Form'
 import { FormError } from '../../atoms/FormError'
 
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 
-import { useAsync } from '@autospace-org/hooks/src/fetcher'
-import { login } from '@autospace-org/network/src/auth'
-import { notification$ } from '@autospace-org/util/subjects'
+import { useAsync } from '@parkora-org/hooks/src/fetcher'
+import { login } from '@parkora-org/network/src/auth'
+import { notification$ } from '@parkora-org/util/subjects'
 import { useRouter } from 'next/router'
 
 export interface ILoginFormProps {
@@ -74,7 +74,7 @@ export const LoginForm = ({ className }: ILoginFormProps) => {
       </Button>
       {error ? <FormError error={error.message} /> : null}
       <div className="mt-4 text-sm">
-        Do not have an autospace account?
+        Do not have an parkora account?
         <br />
         <Link
           href="/register"

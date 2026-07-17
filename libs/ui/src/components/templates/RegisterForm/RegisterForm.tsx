@@ -1,18 +1,21 @@
-import { register as registerUser } from '@autospace-org/network/src/auth'
+import { register as registerUser } from '@parkora-org/network/src/auth'
 import Link from 'next/link'
 import { Button } from '../../atoms/Button'
 import { HtmlInput } from '../../atoms/HtmlInput'
 import { HtmlLabel } from '../../atoms/HtmlLabel'
 
-import { useFormRegister } from '@autospace-org/forms/src/register'
+import { useFormRegister } from '@parkora-org/forms/src/register'
 import { Form } from '../../atoms/Form'
 
-import { notification$ } from '@autospace-org/util/subjects'
+import { notification$ } from '@parkora-org/util/subjects'
 import { useRouter } from 'next/router'
 
-import { useAsync } from '@autospace-org/hooks/src/fetcher'
-import { useCreateCustomerMutation } from '@autospace-org/network/src/generated'
-import { Role } from '@autospace-org/types'
+import { useAsync } from '@parkora-org/hooks/src/fetcher'
+import {
+  useCreateAdminMutation,
+  useCreateCustomerMutation,
+} from '@parkora-org/network/src/generated'
+import { Role } from '@parkora-org/types'
 import { useEffect } from 'react'
 
 export interface ISignupFormProps {
@@ -41,6 +44,33 @@ export const RegisterForm = ({ className, role }: ISignupFormProps) => {
   const router = useRouter()
 
   const [createCustomer] = useCreateCustomerMutation()
+  const [createAdmin, { loading: adminLoading }] = useCreateAdminMutation()
+
+  const onSubmit = async (values: any) => {
+    if (role === 'admin') {
+      try {
+        const res = await createAdmin({
+          variables: {
+            createAdminInput: {
+              email: values.email,
+              password: values.password,
+              displayName: values.displayName,
+            },
+          },
+        })
+        if (res.data?.createAdmin) {
+          notification$.next({
+            message: 'Admin account created successfully! Please log in.',
+          })
+          router.push('/login')
+        }
+      } catch (e: any) {
+        notification$.next({ message: e.message || 'Failed to create admin.' })
+      }
+    } else {
+      await callAsyncFn(values)
+    }
+  }
 
   useEffect(() => {
     if (role === 'customer' && data?.user.uid) {
@@ -64,7 +94,7 @@ export const RegisterForm = ({ className, role }: ISignupFormProps) => {
   }, [error])
 
   return (
-    <Form onSubmit={handleSubmit(callAsyncFn)}>
+    <Form onSubmit={handleSubmit(onSubmit)}>
       <HtmlLabel title="Email" error={errors.email?.message}>
         <HtmlInput
           className="text-black"
@@ -92,11 +122,15 @@ export const RegisterForm = ({ className, role }: ISignupFormProps) => {
           Please fix the above {Object.keys(errors).length} errors
         </div>
       ) : null}
-      <Button type="submit" loading={loading} fullWidth>
+      <Button
+        type="submit"
+        loading={role === 'admin' ? adminLoading : loading}
+        fullWidth
+      >
         Create account
       </Button>
       <div className="mt-4 text-sm ">
-        Already have an autospace account?
+        Already have an parkora account?
         <br />
         <Link href="/login" className="font-bold underline underline-offset-4">
           Login

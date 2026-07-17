@@ -1,4 +1,4 @@
-import { Role } from '@autospace-org/types'
+import { Role } from '@parkora-org/types'
 import { BrandIcon } from '../BrandIcon'
 
 export interface IBrandProps {
@@ -17,17 +17,17 @@ export const Brand = ({
       <div className="text-xl ">
         {shortForm ? (
           <div className="flex gap-1">
-            <BrandIcon /> A.
+            <BrandIcon /> P.
           </div>
         ) : (
           <div className="flex items-center gap-2 font-medium tracking-tighter font-playfair">
             <BrandIcon />
             <div>
               <div className="flex gap-1">
-                <div>Autospace</div>
+                <div>Parkora</div>
                 <span className="text-xs">{type}</span>
               </div>
-              <div className="text-xs text-gray">Karthick Ragavendran</div>
+              <div className="text-xs text-gray">Krishna</div>
             </div>
           </div>
         )}

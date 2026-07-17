@@ -1,5 +1,5 @@
-import { FormTypeBookSlot } from '@autospace-org/forms/src/bookSlot'
-import { differenceInTime } from '@autospace-org/util/date'
+import { FormTypeBookSlot } from '@parkora-org/forms/src/bookSlot'
+import { differenceInTime } from '@parkora-org/util/date'
 import { useEffect, useState } from 'react'
 import { useWatch } from 'react-hook-form'
 

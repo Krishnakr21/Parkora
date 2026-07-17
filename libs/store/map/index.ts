@@ -1,4 +1,4 @@
-import { LocationInfo } from '@autospace-org/hooks/src/location'
+import { LocationInfo } from '@parkora-org/hooks/src/location'
 import create from 'zustand'
 
 export type ViewState = {

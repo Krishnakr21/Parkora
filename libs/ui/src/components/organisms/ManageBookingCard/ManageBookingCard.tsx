@@ -1,7 +1,7 @@
 import {
   BookingsForGarageQuery,
   ValetFieldsFragment,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import Image from 'next/image'
 import { TitleStrongValue, TitleValue } from '../../atoms/TitleValue/TitleValue'
 import { Reveal } from '../../molecules/Reveal'

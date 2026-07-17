@@ -3,13 +3,12 @@ import { Brand } from '../../atoms/Brand'
 import { Button } from '../../atoms/Button'
 import { Container } from '../../atoms/Container'
 
-import { Suspense } from 'react'
 import { NavSidebar, ShowMenuItems } from '../NavSidebar/NavSidebar'
 
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 
-import { MenuItem, Role } from '@autospace-org/types'
+import { MenuItem, Role } from '@parkora-org/types'
 
 export type IHeaderProps = {
   menuItems?: MenuItem[]
@@ -34,9 +33,7 @@ export const Header = ({
               <Brand type={type} shortForm className="block sm:hidden" />
             </Link>
 
-            <Suspense fallback={null}>
-              <ShowMenuItems menuItems={menuItems} />
-            </Suspense>
+            <ShowMenuItems menuItems={menuItems} />
 
             <div className="flex items-center gap-2">
               {!uid ? (

@@ -1,9 +1,9 @@
-import { FormTypeCreateGarage } from '@autospace-org/forms/src/createGarage'
+import { FormTypeCreateGarage } from '@parkora-org/forms/src/createGarage'
 import { useEffect, useState } from 'react'
 import { useFieldArray, useFormContext, useWatch } from 'react-hook-form'
 import { Button } from '../../atoms/Button'
 
-import { SlotType } from '@autospace-org/network/src/generated'
+import { SlotType } from '@parkora-org/network/src/generated'
 import { IconPlus } from '@tabler/icons-react'
 import { HtmlInput } from '../../atoms/HtmlInput'
 import { HtmlLabel } from '../../atoms/HtmlLabel'

@@ -1,5 +1,5 @@
-import { useTakeSkip } from '@autospace-org/hooks/src/async'
-import { useCompanyValetsQuery } from '@autospace-org/network/src/generated'
+import { useTakeSkip } from '@parkora-org/hooks/src/async'
+import { useCompanyValetsQuery } from '@parkora-org/network/src/generated'
 import { ShowData } from '../ShowData'
 import { ValetCard } from '../ValetCard'
 

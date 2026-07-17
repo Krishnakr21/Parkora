@@ -1,6 +1,6 @@
-import { useAppSelector } from '@autospace-org/store'
-import { selectNotifications } from '@autospace-org/store/utils'
-import { NotificationType } from '@autospace-org/types'
+import { useAppSelector } from '@parkora-org/store'
+import { selectNotifications } from '@parkora-org/store/utils'
+import { NotificationType } from '@parkora-org/types'
 import { AnimatePresence, motion } from 'framer-motion'
 
 export const Notifications = () => {

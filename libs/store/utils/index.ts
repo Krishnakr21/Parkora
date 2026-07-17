@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-import { NotificationType } from '@autospace-org/types'
+import { NotificationType } from '@parkora-org/types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 import { RootState } from '..'

@@ -1,8 +1,8 @@
+import { RadioGroup } from '@headlessui/react'
 import {
   SearchGaragesQuery,
   SlotType,
-} from '@autospace-org/network/src/generated'
-import { RadioGroup } from '@headlessui/react'
+} from '@parkora-org/network/src/generated'
 import { IconBike, IconCar, IconMotorbike, IconTir } from '@tabler/icons-react'
 
 export interface ISelectParkingSlotTypeProps {

@@ -2,7 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 
-import { SlotType } from '@autospace-org/network/src/generated'
+import { SlotType } from '@parkora-org/network/src/generated'
 import {
   formSchemaSearchGarage,
   getCurrentTimeAndOneHourLater,

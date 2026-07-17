@@ -1,4 +1,4 @@
-import { ValetsQuery } from '@autospace-org/network/src/generated'
+import { ValetsQuery } from '@parkora-org/network/src/generated'
 import { format } from 'date-fns'
 import Image from 'next/image'
 

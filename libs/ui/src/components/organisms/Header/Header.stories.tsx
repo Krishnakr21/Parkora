@@ -1,4 +1,4 @@
-import { MenuItem } from '@autospace-org/types'
+import { MenuItem } from '@parkora-org/types'
 import type { Meta, StoryObj } from '@storybook/react'
 import { Header } from './Header'
 

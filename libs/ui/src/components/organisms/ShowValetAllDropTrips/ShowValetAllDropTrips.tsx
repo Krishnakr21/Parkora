@@ -1,8 +1,8 @@
-import { useTakeSkip } from '@autospace-org/hooks/src/async'
+import { useTakeSkip } from '@parkora-org/hooks/src/async'
 import {
   BookingStatus,
   useValetDropsQuery,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import { ShowData } from '../../organisms/ShowData'
 
 import { PickupDropInfoCard } from '../../organisms/PickupDropInfoCard/PickupDropInfoCard'

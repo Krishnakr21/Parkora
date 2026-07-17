@@ -1,9 +1,9 @@
-import { useFormCreateValet } from '@autospace-org/forms/src/createValet'
+import { useFormCreateValet } from '@parkora-org/forms/src/createValet'
 import {
   namedOperations,
   useCreateValetMutation,
-} from '@autospace-org/network/src/generated'
-import { useImageUpload } from '@autospace-org/util'
+} from '@parkora-org/network/src/generated'
+import { useImageUpload } from '@parkora-org/util'
 import { useEffect, useState } from 'react'
 import { Controller } from 'react-hook-form'
 import { Button } from '../../atoms/Button'

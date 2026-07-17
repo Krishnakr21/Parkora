@@ -1,20 +1,21 @@
-import { initializeApp } from 'firebase/app'
+import { getApp, getApps, initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBM9xoVcQLKu11r4urLmke6-R_wsQv0MdQ',
-  authDomain: 'autospace-karthick.firebaseapp.com',
-  projectId: 'autospace-karthick',
-  storageBucket: 'autospace-karthick.appspot.com',
-  messagingSenderId: '922694220157',
-  appId: '1:922694220157:web:43ca5cbcabef78b990b414',
-  measurementId: 'G-LMFTE66MXH',
+  apiKey: 'AIzaSyDY25IJ_WuKHfvjAlGkCcluS1W5U1mKnOA',
+  authDomain: 'parkora-62c26.firebaseapp.com',
+  projectId: 'parkora-62c26',
+  storageBucket: 'parkora-62c26.firebasestorage.app',
+  messagingSenderId: '934259930798',
+  appId: '1:934259930798:web:ec9751ff416b8dc5159f3f',
+  measurementId: 'G-K1CWPMTJWD',
 }
 
 // Initialize Firebase
-export const firebaseApp = initializeApp(firebaseConfig)
+export const firebaseApp =
+  getApps().length === 0 ? initializeApp(firebaseConfig) : getApp()
 // const analytics = getAnalytics(firebaseApp)
 export const db = getFirestore(firebaseApp)
 export const storage = getStorage(firebaseApp)

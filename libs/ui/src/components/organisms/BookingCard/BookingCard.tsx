@@ -1,7 +1,7 @@
 import { MapLink } from '../../atoms/MapLink'
 import { Reveal } from '../../molecules/Reveal'
 
-import { BookingsQuery } from '@autospace-org/network/src/generated'
+import { BookingsQuery } from '@parkora-org/network/src/generated'
 import { TitleStrongValue } from '../../atoms/TitleValue/TitleValue'
 import { StartEndDateCard } from '../DateCard/DateCard'
 import { StaticMapSimple } from '../PickupDropInfoCard/PickupDropInfoCard'

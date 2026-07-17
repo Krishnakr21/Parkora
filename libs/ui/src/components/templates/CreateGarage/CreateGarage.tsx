@@ -8,15 +8,15 @@ import { Map } from '../../organisms/Map'
 import {
   FormProviderCreateGarage,
   FormTypeCreateGarage,
-} from '@autospace-org/forms/src/createGarage'
+} from '@parkora-org/forms/src/createGarage'
 
 import { Form } from '../../atoms/Form'
 import { HtmlInput } from '../../atoms/HtmlInput'
 import { HtmlLabel } from '../../atoms/HtmlLabel'
 
-import { useCreateGarageMutation } from '@autospace-org/network/src/generated'
-import { useImageUpload } from '@autospace-org/util'
-import { notification$ } from '@autospace-org/util/subjects'
+import { useCreateGarageMutation } from '@parkora-org/network/src/generated'
+import { useImageUpload } from '@parkora-org/util'
+import { notification$ } from '@parkora-org/util/subjects'
 import { HtmlTextArea } from '../../atoms/HtmlTextArea'
 import { ProgressBar } from '../../atoms/ProgressBar'
 import { ViewState } from '../../organisms/Map/Map'

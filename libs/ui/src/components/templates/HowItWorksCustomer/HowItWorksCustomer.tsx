@@ -1,5 +1,5 @@
-import { RotatingCamera } from '@autospace-org/3d/src/scenes/CarScene'
-import { ParkingSlotScene } from '@autospace-org/3d/src/scenes/ParkingSlotScene'
+import { RotatingCamera } from '@parkora-org/3d/src/scenes/CarScene'
+import { ParkingSlotScene } from '@parkora-org/3d/src/scenes/ParkingSlotScene'
 import { Container } from '../../atoms/Container'
 
 export interface IHowItWorksCustomerProps {}
@@ -15,15 +15,15 @@ export const HowItWorksCustomer = ({}: IHowItWorksCustomerProps) => {
       <Container>
         <div className="max-w-xl space-y-4 text-white">
           <div className="text-lg font-medium">How It Works</div>
-          <div className="text-lg font-semibold">Welcome to AutoSpace!</div>
+          <div className="text-lg font-semibold">Welcome to Parkora!</div>
           <p>
             Are you tired of wasting precious time circling the city blocks like
             a predator stalking its prey, only instead of a delicious dinner,
             you're hunting for a tiny patch of asphalt to park your car? You're
-            not alone, and that's exactly why AutoSpace exists. Let's walk you
+            not alone, and that's exactly why Parkora exists. Let's walk you
             through how it works, step by step.
           </p>{' '}
-          <div className="text-lg">Step 1: Unleash the Power of AutoSpace</div>
+          <div className="text-lg">Step 1: Unleash the Power of Parkora</div>
           <p>
             First, sign up and create your account. It's as easy as pie - a pie
             that you don't have to fight over a parking spot for. With just a
@@ -36,13 +36,13 @@ export const HowItWorksCustomer = ({}: IHowItWorksCustomerProps) => {
             city center for some retail therapy, or to that new hipster café on
             the outskirts for a cup of artisanal, fair-trade, non-GMO,
             gluten-free, vegan coffee (or just a regular cup of Joe, we don't
-            judge), AutoSpace has got you covered!
+            judge), Parkora has got you covered!
           </p>{' '}
           <div className="text-lg">Step 3: Choose your Spot</div>
           <p>
-            AutoSpace will present you with a list of available parking spots
-            near your destination. You can select based on distance, price, or
-            even the likelihood of encountering a horde of wild shopping carts.
+            Parkora will present you with a list of available parking spots near
+            your destination. You can select based on distance, price, or even
+            the likelihood of encountering a horde of wild shopping carts.
             Choose the spot that suits your needs, and voila! No more parking
             woes.
           </p>
@@ -57,14 +57,14 @@ export const HowItWorksCustomer = ({}: IHowItWorksCustomerProps) => {
             Once your car is comfortably parked, you're free to walk away with
             swagger, knowing you've outsmarted the concrete jungle. Now you can
             enjoy your day, while your car enjoys its own little vacation spot.
-            And there you have it! That's how AutoSpace transforms your parking
-            nightmares into sweet, sweet dreams. So, why wait? Join the
-            AutoSpace revolution today, and say goodbye to parking woes forever.
+            And there you have it! That's how Parkora transforms your parking
+            nightmares into sweet, sweet dreams. So, why wait? Join the Parkora
+            revolution today, and say goodbye to parking woes forever.
           </p>{' '}
           <p>Happy parking! </p>
           <br />
           <p>
-            Remember, AutoSpace is not responsible for any increase in swagger,
+            Remember, Parkora is not responsible for any increase in swagger,
             coolness, or overall happiness that may result from using our
             service. Proceed with caution and enjoy!
           </p>

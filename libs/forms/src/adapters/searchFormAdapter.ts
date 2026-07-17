@@ -1,5 +1,5 @@
-import { useDebouncedValue } from '@autospace-org/hooks/src/async'
-import { SearchGaragesQueryVariables } from '@autospace-org/network/src/generated'
+import { useDebouncedValue } from '@parkora-org/hooks/src/async'
+import { SearchGaragesQueryVariables } from '@parkora-org/network/src/generated'
 import { useEffect, useState } from 'react'
 import {
   FieldNamesMarkedBoolean,

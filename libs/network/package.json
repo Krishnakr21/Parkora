@@ -1,12 +1,12 @@
 {
-  "name": "@autospace-org/network",
+  "name": "@parkora-org/network",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
     "@apollo/client": "3.7.10",
-    "@autospace-org/network": "*",
-    "@autospace-org/store": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/store": "*",
     "firebase": "9.19.0",
     "graphql": "16.6.0",
     "graphql-request": "5.2.0",

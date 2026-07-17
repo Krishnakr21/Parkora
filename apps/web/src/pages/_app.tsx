@@ -1,14 +1,14 @@
 import '@/styles/globals.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-import { useIsPathInArray } from '@autospace-org/hooks/src'
-import { ApolloProvider } from '@autospace-org/network/src/config/apollo'
-import { ReduxProvider } from '@autospace-org/store/Provider'
-import { MenuItem } from '@autospace-org/types'
-import { AppLevelListeners } from '@autospace-org/ui/src/components/atoms/AppLevelListeners'
-import { Footer } from '@autospace-org/ui/src/components/organisms/Footer'
-import { Header } from '@autospace-org/ui/src/components/organisms/Header'
-import { Notifications } from '@autospace-org/ui/src/components/organisms/Notifications'
+import { useIsPathInArray } from '@parkora-org/hooks/src'
+import { ApolloProvider } from '@parkora-org/network/src/config/apollo'
+import { ReduxProvider } from '@parkora-org/store/Provider'
+import { MenuItem } from '@parkora-org/types'
+import { AppLevelListeners } from '@parkora-org/ui/src/components/atoms/AppLevelListeners'
+import { Footer } from '@parkora-org/ui/src/components/organisms/Footer'
+import { Header } from '@parkora-org/ui/src/components/organisms/Header'
+import { Notifications } from '@parkora-org/ui/src/components/organisms/Notifications'
 import type { AppProps } from 'next/app'
 
 const MENUITEMS: MenuItem[] = [

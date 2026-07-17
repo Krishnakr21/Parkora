@@ -1,13 +1,10 @@
-import {
-  valetDropsData,
-  valetPickupsData,
-} from '@autospace-org/network/src/data'
+import { valetDropsData, valetPickupsData } from '@parkora-org/network/src/data'
 import {
   namedOperations,
   ValetDropsQuery,
   ValetPickupsQuery,
-} from '@autospace-org/network/src/generated'
-import { ReduxAddUid } from '@autospace-org/store/Provider'
+} from '@parkora-org/network/src/generated'
+import { ReduxAddUid } from '@parkora-org/store/Provider'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { ValetHome } from './ValetHome'

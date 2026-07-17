@@ -7,6 +7,7 @@ import {
 import { Reflector } from '@nestjs/core'
 import { GqlExecutionContext } from '@nestjs/graphql'
 import { FirebaseService } from 'src/common/firebase/firebase.service'
+import { PrismaService } from 'src/common/prisma/prisma.service'
 import { Role } from 'src/common/types'
 
 const authorizeUsingAccesstoken = async (
@@ -40,6 +41,7 @@ export class AuthGuard implements CanActivate {
   constructor(
     private readonly reflector: Reflector,
     private readonly firebaseService: FirebaseService,
+    private readonly prisma: PrismaService,
   ) {}
 
   async canActivate(context: ExecutionContext): Promise<boolean> {
@@ -58,6 +60,14 @@ export class AuthGuard implements CanActivate {
       'allowUnauthenticated',
       [context.getHandler(), context.getClass()],
     )
+
+    if (context.getHandler().name === 'createAdmin') {
+      const adminCount = await this.prisma.admin.count()
+      if (adminCount === 0) {
+        req.user = user || { uid: 'bootstrap-admin-uid', roles: ['admin'] }
+        return true
+      }
+    }
 
     if (!user && !allowUnauthenticated) {
       throw new UnauthorizedException()

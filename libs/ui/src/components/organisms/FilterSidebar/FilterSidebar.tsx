@@ -4,7 +4,7 @@ import { Controller, useFormContext } from 'react-hook-form'
 import {
   formDefaultValuesSearchGarages,
   FormTypeSearchGarage,
-} from '@autospace-org/forms/src/searchGarages'
+} from '@parkora-org/forms/src/searchGarages'
 import { Button } from '../../atoms/Button'
 import { FilterHeading } from '../../molecules/FilterHeading'
 import { RangeSlider } from '../../molecules/RangeSlider'

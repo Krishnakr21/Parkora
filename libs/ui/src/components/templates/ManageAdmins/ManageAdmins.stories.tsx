@@ -1,9 +1,9 @@
-import { admins } from '@autospace-org/network/src/data'
+import { admins } from '@parkora-org/network/src/data'
 import {
   AdminsQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
-import { ReduxAddUid } from '@autospace-org/store/Provider'
+} from '@parkora-org/network/src/generated'
+import { ReduxAddUid } from '@parkora-org/store/Provider'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { ManageAdmins } from './ManageAdmins'

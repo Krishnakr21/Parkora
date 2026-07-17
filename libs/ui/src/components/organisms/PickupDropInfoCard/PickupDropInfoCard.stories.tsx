@@ -1,5 +1,5 @@
-import { BookingStatus } from '@autospace-org/network/src/generated'
-import { toLocalISOString } from '@autospace-org/util'
+import { BookingStatus } from '@parkora-org/network/src/generated'
+import { toLocalISOString } from '@parkora-org/util'
 import type { Meta, StoryObj } from '@storybook/react'
 import { rest } from 'msw'
 import { PickupDropInfoCard } from './PickupDropInfoCard'

@@ -1,10 +1,10 @@
-import { useFormRegister } from '@autospace-org/forms'
+import { useFormRegister } from '@parkora-org/forms'
 import {
   namedOperations,
   useAdminsQuery,
   useCreateAdminMutation,
   useRemoveAdminMutation,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import { IconTrash } from '@tabler/icons-react'
 import { useState } from 'react'
 import { Button } from '../../atoms/Button'

@@ -1,5 +1,5 @@
-import { Container } from '@autospace-org/ui/src/components/atoms/Container'
-import { Accordion } from '@autospace-org/ui/src/components/molecules/Accordion'
+import { Container } from '@parkora-org/ui/src/components/atoms/Container'
+import { Accordion } from '@parkora-org/ui/src/components/molecules/Accordion'
 
 const AboutPage = () => {
   return (

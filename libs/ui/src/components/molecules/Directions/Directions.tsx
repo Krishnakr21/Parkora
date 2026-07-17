@@ -1,4 +1,4 @@
-import { LatLng } from '@autospace-org/types'
+import { LatLng } from '@parkora-org/types'
 import { IconGps } from '@tabler/icons-react'
 import { PlainButton } from '../../atoms/PlainButton'
 

@@ -1,5 +1,5 @@
-import { Container } from '@autospace-org/ui/src/components/atoms/Container'
-import { AboutPageCustomer } from '@autospace-org/ui/src/components/templates/AboutPageCustomer'
+import { Container } from '@parkora-org/ui/src/components/atoms/Container'
+import { AboutPageCustomer } from '@parkora-org/ui/src/components/templates/AboutPageCustomer'
 
 const AboutPage = () => {
   return (

@@ -3,13 +3,13 @@ import {
   useCreateVerificationMutation,
   useGaragesQuery,
   useRemoveVerificationMutation,
-} from '@autospace-org/network/src/generated'
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+} from '@parkora-org/network/src/generated'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 import { useState } from 'react'
 import { ShowData } from '../../organisms/ShowData'
 
-import { notification$ } from '@autospace-org/util/subjects'
+import { notification$ } from '@parkora-org/util/subjects'
 import { PlainButton } from '../../atoms/PlainButton'
 import { GarageAdminCard } from '../../organisms/GarageAdminCard'
 

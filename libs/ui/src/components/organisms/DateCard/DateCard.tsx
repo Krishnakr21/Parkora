@@ -2,7 +2,7 @@ import {
   differenceInTime,
   formatDateCustom,
   getTimeUnits,
-} from '@autospace-org/util/date'
+} from '@parkora-org/util/date'
 import { IconArrowRightRhombus } from '@tabler/icons-react'
 
 export interface IDateCardProps {

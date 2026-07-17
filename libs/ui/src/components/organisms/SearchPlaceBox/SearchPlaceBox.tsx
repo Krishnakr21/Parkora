@@ -1,7 +1,7 @@
 import {
   LocationInfo,
   useSearchLocation,
-} from '@autospace-org/hooks/src/location'
+} from '@parkora-org/hooks/src/location'
 
 import { useMap } from 'react-map-gl'
 import { Autocomplete } from '../../atoms/Autocomplete'
@@ -64,7 +64,7 @@ export const SearchPlaceBox = ({
 
   return (
     <Autocomplete<LocationInfo, false, false, false>
-      options={locationInfo.length ? locationInfo : majorCitiesLocationInfo}
+      options={locationInfo?.length ? locationInfo : majorCitiesLocationInfo}
       isOptionEqualToValue={(option, value) =>
         option.placeName === value.placeName
       }

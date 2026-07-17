@@ -5,13 +5,13 @@ export interface IBrandIconProps {
 }
 
 export const BrandIcon = ({
-  children = <div className={`bg-gray-100 shadow w-2 h-4 animate-park-car `} />,
+  children = (
+    <div className="bg-yellow-400 shadow-md w-2 h-4 rounded-xs animate-park-car" />
+  ),
 }: IBrandIconProps) => {
   return (
-    <div className="inline-block overflow-hidden">
-      <div
-        className={`flex items-center justify-center border-2 border-yellow-500 w-4 h-6`}
-      >
+    <div className="inline-block overflow-hidden select-none">
+      <div className="flex items-center justify-center border-2 border-yellow-400 w-5 h-7 rounded-md bg-black/10 shadow-[0_0_8px_rgba(250,204,21,0.4)] transition-all hover:scale-105">
         {children}
       </div>
     </div>

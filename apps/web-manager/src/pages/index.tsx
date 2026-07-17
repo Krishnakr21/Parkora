@@ -1,5 +1,5 @@
-import { Container } from '@autospace-org/ui/src/components/atoms/Container'
-import { Manager } from '@autospace-org/ui/src/components/templates/Manager'
+import { Container } from '@parkora-org/ui/src/components/atoms/Container'
+import { Manager } from '@parkora-org/ui/src/components/templates/Manager'
 
 export default function Home() {
   return (

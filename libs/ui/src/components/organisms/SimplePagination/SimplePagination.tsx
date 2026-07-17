@@ -1,4 +1,4 @@
-import { TAKE_COUNT } from '@autospace-org/hooks/src/async'
+import { TAKE_COUNT } from '@parkora-org/hooks/src/async'
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react'
 import React from 'react'
 import { PlainButton } from '../../atoms/PlainButton'

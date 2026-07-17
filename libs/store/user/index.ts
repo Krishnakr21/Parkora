@@ -1,4 +1,4 @@
-import { Role } from '@autospace-org/types'
+import { Role } from '@parkora-org/types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { RootState } from '..'
 

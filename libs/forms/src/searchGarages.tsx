@@ -1,6 +1,6 @@
-import { SlotType } from '@autospace-org/network/src/generated'
-import { toLocalISOString } from '@autospace-org/util'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { SlotType } from '@parkora-org/network/src/generated'
+import { toLocalISOString } from '@parkora-org/util'
 import { ReactNode, useEffect } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import { z } from 'zod'

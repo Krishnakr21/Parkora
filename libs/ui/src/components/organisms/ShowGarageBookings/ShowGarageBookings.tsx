@@ -1,11 +1,11 @@
-import { useTakeSkip } from '@autospace-org/hooks/src/async'
+import { useTakeSkip } from '@parkora-org/hooks/src/async'
 import {
   BookingStatus,
   namedOperations,
   QueryMode,
   useBookingsForGarageQuery,
   useCreateBookingTimelineMutation,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import { useState } from 'react'
 import { Button } from '../../atoms/Button'
 import { ManageBookingCard } from '../../organisms/ManageBookingCard'

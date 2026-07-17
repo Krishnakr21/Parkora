@@ -1,5 +1,5 @@
-import { useAppSelector } from '@autospace-org/store'
-import { selectUser } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUser } from '@parkora-org/store/user'
 import { IconUserCircle } from '@tabler/icons-react'
 
 export interface IShowUserDisplayNameProps {}

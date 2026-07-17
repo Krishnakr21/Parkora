@@ -1,11 +1,11 @@
-import { useFormCreateManySlots } from '@autospace-org/forms/src/createManySlots'
+import { useFormCreateManySlots } from '@parkora-org/forms/src/createManySlots'
 import {
   CreateSlotInput,
   GaragesQuery,
   namedOperations,
   SlotType,
   useCreateManySlotsMutation,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'

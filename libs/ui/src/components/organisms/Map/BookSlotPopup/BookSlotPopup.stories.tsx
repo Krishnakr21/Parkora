@@ -1,5 +1,5 @@
-import { FormProviderBookSlot } from '@autospace-org/forms/src/bookSlot'
-import { searchGarages } from '@autospace-org/network/src/data'
+import { FormProviderBookSlot } from '@parkora-org/forms/src/bookSlot'
+import { searchGarages } from '@parkora-org/network/src/data'
 import type { Meta, StoryObj } from '@storybook/react'
 import { BookSlotPopup } from './BookSlotPopup'
 

@@ -1,4 +1,4 @@
-import { GaragesQuery } from '@autospace-org/network/src/generated'
+import { GaragesQuery } from '@parkora-org/network/src/generated'
 import { MapLink } from '../../atoms/MapLink'
 import { IconTypes } from '../../molecules/SelectParkingSlotType/SelectParkingSlotType'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@autospace-org/web-manager",
+  "name": "@parkora-org/web-manager",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@autospace-org/forms": "*",
-    "@autospace-org/network": "*",
-    "@autospace-org/store": "*",
-    "@autospace-org/ui": "*",
+    "@parkora-org/forms": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/store": "*",
+    "@parkora-org/ui": "*",
     "@sentry/nextjs": "^7.58.1",
     "@types/node": "20.1.5",
     "@types/react": "18.2.6",

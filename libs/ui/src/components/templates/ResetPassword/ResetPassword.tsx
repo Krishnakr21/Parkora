@@ -8,10 +8,10 @@ import { HtmlLabel } from '../../atoms/HtmlLabel'
 import {
   FormTypeResetPassword,
   useFormResetPassword,
-} from '@autospace-org/forms/src/resetPassword'
+} from '@parkora-org/forms/src/resetPassword'
 
-import { useAsync } from '@autospace-org/hooks/src/fetcher'
-import { resetPassword } from '@autospace-org/network/src/auth'
+import { useAsync } from '@parkora-org/hooks/src/fetcher'
+import { resetPassword } from '@parkora-org/network/src/auth'
 import { Dialog } from '../../atoms/Dialog'
 
 const ResetPassword = () => {

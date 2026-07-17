@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   db:
-    container_name: autospace_db
-    image: postgres
+    container_name: parkora_db
+    image: postgres:15-alpine
     restart: always
     ports:
       - 1006:5432
@@ -14,7 +12,7 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
   pgadmin:
-    container_name: autospace_pgadmin
+    container_name: parkora_pgadmin
     image: dpage/pgadmin4
     restart: always
     environment:

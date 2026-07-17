@@ -1,10 +1,10 @@
-import { useCreateCompanyForm } from '@autospace-org/forms/src/createManager'
+import { useCreateCompanyForm } from '@parkora-org/forms/src/createManager'
 import {
   namedOperations,
   useCreateCompanyMutation,
-} from '@autospace-org/network/src/generated'
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+} from '@parkora-org/network/src/generated'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 import { useState } from 'react'
 import { Button } from '../../atoms/Button'
 import { Dialog } from '../../atoms/Dialog'

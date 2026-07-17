@@ -1,4 +1,4 @@
-import { LatLng } from '@autospace-org/types'
+import { LatLng } from '@parkora-org/types'
 import { useEffect, useState } from 'react'
 
 export const useMapboxDirections = (start: LatLng, end: LatLng) => {

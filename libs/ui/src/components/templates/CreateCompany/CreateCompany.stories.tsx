@@ -1,9 +1,9 @@
-import { myCompany } from '@autospace-org/network/src/data'
+import { myCompany } from '@parkora-org/network/src/data'
 import {
   CreateCompanyMutation,
   MyCompanyQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { CreateCompany } from './CreateCompany'

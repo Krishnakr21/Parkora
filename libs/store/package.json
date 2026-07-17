@@ -1,5 +1,5 @@
 {
-  "name": "@autospace-org/store",
+  "name": "@parkora-org/store",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,9 +10,9 @@
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "@autospace-org/network": "*",
-    "@autospace-org/types": "*",
-    "@autospace-org/ui": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/types": "*",
+    "@parkora-org/ui": "*",
     "@redux-devtools/extension": "^3.2.5"
   }
 }

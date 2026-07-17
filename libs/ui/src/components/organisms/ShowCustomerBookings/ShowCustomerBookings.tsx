@@ -1,11 +1,11 @@
-import { useAppSelector } from '@autospace-org/store'
-import { selectUid } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUid } from '@parkora-org/store/user'
 import { CustomerBookingCard } from '../../organisms/BookingCard/BookingCard'
 
 import {
   SortOrder,
   useBookingsLazyQuery,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import { useEffect, useState } from 'react'
 import { Timeline } from '../../molecules/Timeline'
 import { TimelineItem } from '../../molecules/Timeline/Timeline'

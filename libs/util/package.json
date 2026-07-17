@@ -1,11 +1,11 @@
 {
-  "name": "@autospace-org/util",
+  "name": "@parkora-org/util",
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
-    "@autospace-org/network": "*",
-    "@autospace-org/types": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/types": "*",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.0",
     "jwt-decode": "^3.1.2",

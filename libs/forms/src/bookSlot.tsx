@@ -1,5 +1,5 @@
-import { SlotType } from '@autospace-org/network/src/generated'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { SlotType } from '@parkora-org/network/src/generated'
 import { ReactNode, useEffect } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import { z } from 'zod'

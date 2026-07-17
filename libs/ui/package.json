@@ -1,5 +1,5 @@
 {
-  "name": "@autospace-org/ui",
+  "name": "@parkora-org/ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,11 +14,11 @@
     "comp": "node ./src/generators/index.js"
   },
   "dependencies": {
-    "@autospace-org/forms": "*",
-    "@autospace-org/hooks": "*",
-    "@autospace-org/network": "*",
-    "@autospace-org/store": "*",
-    "@autospace-org/util": "*",
+    "@parkora-org/forms": "*",
+    "@parkora-org/hooks": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/store": "*",
+    "@parkora-org/util": "*",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.13",

@@ -1,4 +1,4 @@
-import { BookingStatus } from '@autospace-org/network/src/generated'
+import { BookingStatus } from '@parkora-org/network/src/generated'
 import { useState } from 'react'
 import { Tab, Tabs } from '../../molecules/Tabs'
 import { TabPanel } from '../../molecules/Tabs/Tabs'

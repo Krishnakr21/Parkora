@@ -1,9 +1,9 @@
-import { myCompany } from '@autospace-org/network/src/data'
+import { myCompany } from '@parkora-org/network/src/data'
 import {
   MyCompanyQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
-import { ReduxAddUid } from '@autospace-org/store/Provider'
+} from '@parkora-org/network/src/generated'
+import { ReduxAddUid } from '@parkora-org/store/Provider'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { Manager } from './Manager'

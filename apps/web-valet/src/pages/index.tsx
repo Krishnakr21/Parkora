@@ -1,4 +1,4 @@
-import { ValetHome } from '@autospace-org/ui/src/components/templates/ValetHome'
+import { ValetHome } from '@parkora-org/ui/src/components/templates/ValetHome'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })

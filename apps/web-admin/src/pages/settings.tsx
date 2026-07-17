@@ -1,4 +1,4 @@
-import { Container } from '@autospace-org/ui/src/components/atoms/Container'
+import { Container } from '@parkora-org/ui/src/components/atoms/Container'
 import Link from 'next/link'
 
 export default function SettingsPage() {
@@ -11,7 +11,7 @@ export default function SettingsPage() {
         <div className="flex flex-col max-w-lg gap-4 mt-8 text-gray">
           <p>Who needs settings when things are already set to perfection?</p>
           <p>
-            Here at Autospace, we focus on the big stuff so you don&apos;t sweat
+            Here at Parkora, we focus on the big stuff so you don&apos;t sweat
             the small stuff. You&apos;re here to manage garages, and we&apos;ve
             optimized that to perfection.
           </p>
@@ -20,13 +20,13 @@ export default function SettingsPage() {
             <Link
               target="_blank"
               className="underline underline-offset-4"
-              href="https://www.linkedin.com/in/iamkarthickr/"
+              href="https://www.linkedin.com/in/krishnar/"
             >
               me
             </Link>
-            ) has been working tirelessly to ensure that your Autospace
-            experience is like cruising in a self-driving car - smooth,
-            effortless, and kind of magical. So, he took a
+            ) has been working tirelessly to ensure that your Parkora experience
+            is like cruising in a self-driving car - smooth, effortless, and
+            kind of magical. So, he took a
             <span className="font-bold">well-deserved break</span> when it came
             to the settings page. Can you blame him?
           </p>

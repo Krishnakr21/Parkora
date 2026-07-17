@@ -1,4 +1,4 @@
-import { FormProviderSearchGarage } from '@autospace-org/forms/src/searchGarages'
+import { FormProviderSearchGarage } from '@parkora-org/forms/src/searchGarages'
 import type { Meta, StoryObj } from '@storybook/react'
 import { FilterSidebar } from './FilterSidebar'
 

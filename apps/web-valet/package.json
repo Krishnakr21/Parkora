@@ -1,5 +1,5 @@
 {
-  "name": "@autospace-org/web-valet",
+  "name": "@parkora-org/web-valet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,9 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@autospace-org/network": "*",
-    "@autospace-org/store": "*",
-    "@autospace-org/ui": "*",
+    "@parkora-org/network": "*",
+    "@parkora-org/store": "*",
+    "@parkora-org/ui": "*",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",

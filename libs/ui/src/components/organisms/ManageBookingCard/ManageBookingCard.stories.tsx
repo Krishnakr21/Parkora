@@ -1,4 +1,4 @@
-import { bookings } from '@autospace-org/network/src/data'
+import { bookings } from '@parkora-org/network/src/data'
 import type { Meta, StoryObj } from '@storybook/react'
 import { ManageBookingCard } from './ManageBookingCard'
 

@@ -1,9 +1,9 @@
-import { LatLng } from '@autospace-org/types'
+import { LatLng } from '@parkora-org/types'
 import axios from 'axios'
 import { format } from 'date-fns'
 import { useEffect, useState } from 'react'
 
-import { storage } from '@autospace-org/network/src/config/firebase'
+import { storage } from '@parkora-org/network/src/config/firebase'
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage'
 import { notification$ } from './subjects'
 

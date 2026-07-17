@@ -1,12 +1,12 @@
 import {
   myDropTripsQueryData,
   myPickupTripsQueryData,
-} from '@autospace-org/network/src/data'
+} from '@parkora-org/network/src/data'
 import {
   MyDropTripsQuery,
   MyPickupTripsQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { MyTrips } from './MyTrips'

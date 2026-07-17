@@ -1,8 +1,8 @@
-import { bookings } from '@autospace-org/network/src/data'
+import { bookings } from '@parkora-org/network/src/data'
 import {
   BookingsForGarageQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { ListBookings } from './ListBookings'

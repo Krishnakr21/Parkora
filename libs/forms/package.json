@@ -1,11 +1,11 @@
 {
-  "name": "@autospace-org/forms",
+  "name": "@parkora-org/forms",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
-    "@autospace-org/hooks": "*",
-    "@autospace-org/network": "*",
+    "@parkora-org/hooks": "*",
+    "@parkora-org/network": "*",
     "@hookform/resolvers": "^3.0.1",
     "react-hook-form": "^7.43.9",
     "zod": "^3.21.4"

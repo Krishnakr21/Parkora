@@ -1,12 +1,12 @@
-import { useMapboxDirections } from '@autospace-org/hooks/src/map'
 import polyline from '@mapbox/polyline'
+import { useMapboxDirections } from '@parkora-org/hooks/src/map'
 
 import {
   BookingStatus,
   namedOperations,
   useAssignValetForCheckInCheckOutMutation,
-} from '@autospace-org/network/src/generated'
-import { LatLng } from '@autospace-org/types'
+} from '@parkora-org/network/src/generated'
+import { LatLng } from '@parkora-org/types'
 import { format } from 'date-fns'
 import React, { ReactNode } from 'react'
 import { Button } from '../../atoms/Button'
@@ -233,7 +233,7 @@ export const StaticMap = ({
 
   const paddingString = padding.join(',')
 
-  const url = `https://api.mapbox.com/styles/v1/iamkarthick/clk4em1h900i201pf3jvuei21/static/pin-s-a+000(${
+  const url = `https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s-a+000(${
     start.lng
   },${start.lat}),pin-s-b+000(${end.lng},${
     end.lat
@@ -259,8 +259,8 @@ export const StaticMapSimple = ({
     return <div className="w-full bg-gray-100 shadow-xl aspect-square" />
   }
 
-  const url = `https://api.mapbox.com/styles/v1/iamkarthick/clk4em1h900i201pf3jvuei21/static/${position.lng},${position.lat},9,0/400x400?access_token=${process.env.NEXT_PUBLIC_MAPBOX_TOKEN}`
-  const url2 = `https://api.mapbox.com/styles/v1/iamkarthick/clk4em1h900i201pf3jvuei21/static/pin-s(${position.lng},${position.lat})/${position.lng},${position.lat},9,0/400x400?access_token=${process.env.NEXT_PUBLIC_MAPBOX_TOKEN}`
+  const url = `https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/${position.lng},${position.lat},9,0/400x400?access_token=${process.env.NEXT_PUBLIC_MAPBOX_TOKEN}`
+  const url2 = `https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s(${position.lng},${position.lat})/${position.lng},${position.lat},9,0/400x400?access_token=${process.env.NEXT_PUBLIC_MAPBOX_TOKEN}`
 
   return <img src={url2} alt="Map" className={` ${className}`} />
 }

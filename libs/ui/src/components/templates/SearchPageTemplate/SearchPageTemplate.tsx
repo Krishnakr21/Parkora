@@ -9,15 +9,15 @@ import {
 } from '@tabler/icons-react'
 import { useFormContext } from 'react-hook-form'
 
-import { useConvertSearchFormToVariables } from '@autospace-org/forms/src/adapters/searchFormAdapter'
-import { FormProviderBookSlot } from '@autospace-org/forms/src/bookSlot'
-import { FormTypeSearchGarage } from '@autospace-org/forms/src/searchGarages'
+import { useConvertSearchFormToVariables } from '@parkora-org/forms/src/adapters/searchFormAdapter'
+import { FormProviderBookSlot } from '@parkora-org/forms/src/bookSlot'
+import { FormTypeSearchGarage } from '@parkora-org/forms/src/searchGarages'
 import {
   SearchGaragesQuery,
   useSearchGaragesCountLazyQuery,
   useSearchGaragesLazyQuery,
-} from '@autospace-org/network/src/generated'
-import { toLocalISOString, useKeypress } from '@autospace-org/util'
+} from '@parkora-org/network/src/generated'
+import { toLocalISOString, useKeypress } from '@parkora-org/util'
 import { useMap, ViewStateChangeEvent } from 'react-map-gl'
 import { Dialog } from '../../atoms/Dialog'
 import { HtmlInput } from '../../atoms/HtmlInput'

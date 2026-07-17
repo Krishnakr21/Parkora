@@ -1,4 +1,4 @@
-import { toLocalISOString } from '@autospace-org/util'
+import { toLocalISOString } from '@parkora-org/util'
 import {
   AdminsQuery,
   BookingsQuery,
@@ -169,7 +169,7 @@ export const admins: AdminsQuery = {
       uid: 'uid',
       updatedAt: new Date(),
       verificationsCount: 3,
-      displayName: 'Karthick Ragavendran',
+      displayName: 'Krishna',
     },
   ],
   adminsCount: {

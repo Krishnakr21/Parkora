@@ -2,7 +2,7 @@ import {
   MyCompanyQuery,
   useGaragesQuery,
   useMyCompanyQuery,
-} from '@autospace-org/network/src/generated'
+} from '@parkora-org/network/src/generated'
 import Link from 'next/link'
 import { useState } from 'react'
 import { LoaderPanel } from '../../molecules/Loader'

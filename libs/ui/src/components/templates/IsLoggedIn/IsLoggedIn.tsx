@@ -1,5 +1,5 @@
-import { useAppSelector } from '@autospace-org/store'
-import { selectUser } from '@autospace-org/store/user'
+import { useAppSelector } from '@parkora-org/store'
+import { selectUser } from '@parkora-org/store/user'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 import { LoaderPanel } from '../../molecules/Loader'

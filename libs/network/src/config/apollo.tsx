@@ -6,8 +6,8 @@ import {
 } from '@apollo/client'
 import { setContext } from '@apollo/client/link/context'
 
-import { useAppDispatch, useAppSelector } from '@autospace-org/store'
-import { selectUser, setUser } from '@autospace-org/store/user'
+import { useAppDispatch, useAppSelector } from '@parkora-org/store'
+import { selectUser, setUser } from '@parkora-org/store/user'
 import { ReactNode } from 'react'
 
 import jwtDecode from 'jwt-decode'

@@ -1,9 +1,9 @@
-import { companyValets } from '@autospace-org/network/src/data'
+import { companyValets } from '@parkora-org/network/src/data'
 import {
   CompanyValetsQuery,
   namedOperations,
-} from '@autospace-org/network/src/generated'
-import { ReduxAddUid } from '@autospace-org/store/Provider'
+} from '@parkora-org/network/src/generated'
+import { ReduxAddUid } from '@parkora-org/store/Provider'
 import type { Meta, StoryObj } from '@storybook/react'
 import { graphql } from 'msw'
 import { ManageValets } from './ManageValets'
