@@ -18,31 +18,28 @@ The platform is engineered using modern, state-of-the-art technologies:
 
 ---
 
-## 📱 Portals & Interfaces
+## 🌐 Live Deployments & Portals
 
-Parkora provides four dedicated user portals to support the parking ecosystem:
+Parkora is fully deployed and live on production! Here are the links to access the platform's user portals, along with setup instructions:
 
-### 1. 🧑‍💻 Customer App (`http://localhost:3001`)
-*   Search for available parking spots using interactive Mapbox maps.
-*   Filter by space type, features, pricing, and distances.
-*   Book slots securely with Stripe payment integration.
-*   Manage booking timelines, directions, and view trip history.
+### 1. 🧑‍💻 Customer App
+*   **Live URL**: [https://parkora-web.vercel.app/](https://parkora-web.vercel.app/)
+*   **Onboarding**: Click **Sign Up** to register a new customer account. You can then search for parking garages in Chennai, browse available slots (CAR, BIKE, BICYCLE, HEAVY), and book a slot.
 
-### 2. 🏢 Manager App (`http://localhost:3002`)
-*   Onboard and register new parking garages and lots.
-*   Configure slots, pricing tiers, and operating hours.
-*   Hire, manage, and dispatch valet drivers.
-*   View real-time booking statistics and revenue analytics.
+### 2. 🏢 Manager App
+*   **Live URL**: [https://parkora-web-manager.vercel.app/](https://parkora-web-manager.vercel.app/)
+*   **Onboarding**: Register a manager account. Once registered, you can create a parking company, add garages, define slots, set pricing, and hire valets.
 
-### 3. 🛡️ Admin App (`http://localhost:3003`)
-*   System-wide dashboard for overseeing global operations.
-*   Approve/reject registered garages and management teams.
-*   Manage user registrations, feedback, and platform settings.
+### 3. 🛡️ Admin App
+*   **Live URL**: [https://parkora-web-admin.vercel.app/](https://parkora-web-admin.vercel.app/)
+*   **Access Credentials**:
+    *   **Email**: `romeokanhai@gmail.com` (Your pre-authorized Admin account)
+    *   **Password**: *Use the password created for this email during Firebase registration.*
+*   **Role**: Verify new garages and oversee overall platform booking/manager activities.
 
-### 4. 🔑 Valet App (`http://localhost:3004`)
-*   Real-time job queue for car pickup and drop-off requests.
-*   Receive assignment notifications and follow mapping route instructions.
-*   Update vehicle statuses (e.g., Picked Up, Parked, Completed).
+### 4. 🔑 Valet App
+*   **Live URL**: [https://parkora-web-valet.vercel.app/](https://parkora-web-valet.vercel.app/)
+*   **Onboarding**: Valet accounts are created and managed by Parking Managers from the Manager Portal. Once added, valets can sign in to accept pickup/dropoff tasks.
 
 ---
 
