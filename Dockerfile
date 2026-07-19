@@ -1,5 +1,5 @@
 # Choose the base image for the build stage
-FROM --platform=linux/arm64 node:16-alpine as build
+FROM node:16-alpine as build
 
 # Create the working directory
 WORKDIR /app
@@ -20,7 +20,7 @@ RUN cd /app/apps/api && npx prisma generate
 RUN cd /app/apps/api && npm run build
 
 # Start the final image
-FROM --platform=linux/arm64 node:16-alpine
+FROM node:16-alpine
 
 # Create a new directory for the app
 WORKDIR /app
