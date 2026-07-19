@@ -10,7 +10,9 @@ export class FirebaseService {
   constructor(private readonly prisma: PrismaService) {
     try {
       const firebasePrivateKey = process.env.firebasePrivateKey
-        ? process.env.firebasePrivateKey.replace(/\\n/g, '\n')
+        ? process.env.firebasePrivateKey
+            .replace(/\\n/g, '\n')
+            .replace(/^"|"$/g, '')
         : ''
       if (
         firebasePrivateKey &&

@@ -7,7 +7,9 @@ const port = process.env.PORT || 3000
 async function bootstrap() {
   const app = await NestFactory.create(AppModule)
 
-  const allowedOrigins = process.env.ALLOWED_ORIGINS.split(',')
+  const allowedOrigins = process.env.ALLOWED_ORIGINS
+    ? process.env.ALLOWED_ORIGINS.split(',')
+    : ['*']
 
   console.log(allowedOrigins)
 
